@@ -7,7 +7,7 @@
 
 body {
     background-color: var(--white);
-    width: 1440px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ body {
 * {
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 section h1 {
@@ -79,7 +80,12 @@ header a {
     color: var(--white);
     text-align: center;
     background-color: var(--black);
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 #banner-section * {
     margin: 0;
 }
@@ -96,25 +102,6 @@ header a {
     padding-top: 220px;
 }
 
-
-
-#banner-bg {
-    filter: grayscale(100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-#gradient {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    height: 989px;
-    width: 1440px;
-    background: linear-gradient(to bottom, transparent 1%, var(--black) 100%);
-}
 
 #banner-text {
     width: 253px;
